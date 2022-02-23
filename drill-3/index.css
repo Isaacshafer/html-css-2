@@ -1,0 +1,56 @@
+header{
+    height: 150px;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+}
+/* section{
+    height: 100px;
+    width: 100PX;
+    background-color: blue;
+} */
+#top-left{
+    height: 80px;
+    width: 80px;
+    background-color: cadetblue;
+    margin-left: 15px;
+}
+.words{
+    height: 200px;
+    width: 100%;
+    margin: 20px;
+}
+.colors{
+    height: 200px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.second{
+    background-color: turquoise;
+}
+.third{
+    background-color: palegreen;
+}
+.fourth{
+    background-color: khaki;
+}
+div{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 10px;
+    right: 10px;
+}
+footer{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: sticky;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
